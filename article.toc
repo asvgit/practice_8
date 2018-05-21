@@ -1,0 +1,6 @@
+\select@language {russian}
+\contentsline {section}{\numberline {}Задание на практику}{2}{section.1}
+\contentsline {section}{\numberline {}Введение}{3}{section.2}
+\contentsline {section}{\numberline {}1 Теоретическая часть}{4}{section.3}
+\contentsline {section}{\numberline {}2 Основная часть}{5}{section.4}
+\contentsline {section}{\numberline {}Заключение}{6}{section.5}

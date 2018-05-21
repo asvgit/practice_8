@@ -1,0 +1,26 @@
+\input{preamble.tex}
+\usepackage{hyperref,xcolor}
+
+\usepackage{tocloft}
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{\arabic{mysection}.\arabic{subsection}}
+
+\providecommand\mytitle{\_П.430200.090404.000.ПЗ}
+\providecommand\doctitle{title}
+
+\begin{document}
+\input{title.tex}
+\tableofcontents
+
+\newpage
+\setcounter{page}{2}
+\input{src/introduction.tex}
+\input{src/project.tex}
+\input{src/conclusion.tex}
+
+\newpage
+\bibliographystyle{/home/sava/latex/utf8gost705u}
+% \addcontentsline{toc}{section}{Литература}
+% \renewcommand\bibname{Литература}
+\bibliography{biblio}
+\end{document}
